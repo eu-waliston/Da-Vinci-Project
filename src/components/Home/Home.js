@@ -45,6 +45,8 @@ const HOME = styled.div`
   width: 100vw;
   height: 100vh;
 
+
+
   .davinci {
     position: fixed;
     filter: brightness(70%);
@@ -61,9 +63,12 @@ const HOME = styled.div`
     font-size: 3.5rem;
 
     font-family: "Cinzel Decorative", cursive;
+
+    z-index: 3;
   }
 
   .data {
+    z-index: 3;
     color: #fff;
     display: flex;
     align-content: center;
