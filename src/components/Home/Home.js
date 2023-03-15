@@ -35,7 +35,8 @@ const Home = () => {
             <p>clos luce, Amboise, Kingdom of France</p>
           </div>
         </div>
-
+        <img alt="clouds" className="clouds" src={require("../images/clouds.png")}/>
+        <img alt="clouds" className="clouds2" src={require("../images/cloud2.png")}/>
       </HOME>
     </>
   );
@@ -45,7 +46,20 @@ const HOME = styled.div`
   width: 100vw;
   height: 100vh;
 
+  .clouds {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    top: 68px;
+    filter: brightness(40%);
+  }
 
+  .clouds2 {
+    position: absolute;
+    width: 50%;
+    bottom: 1px;
+    filter: brightness(40%);
+  }
 
   .davinci {
     position: fixed;
