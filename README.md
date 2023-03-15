@@ -1,4 +1,4 @@
-# Da Vicni Web Page.
+# The da Vicni Project.
 
 ##  A React SPA about the polymath Pablo Da Vinci, in this project,  i'll use some technologies:
 
