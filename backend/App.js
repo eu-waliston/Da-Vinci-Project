@@ -1,11 +1,13 @@
 const bodyParser = require('body-parser');
 const express = require('express')
 const cors = require('cors');
+
 const app = express();
 
 //Middlewares
 app.use(bodyParser.json())
 app.use(cors())
+
 app.use((req,rres,next) => {
     const start = Date.now();
     next();
@@ -16,9 +18,10 @@ app.use((req,rres,next) => {
 
 //Routes
 const artRoute = require("./routes/arts.router")
+const articleRoute = require("./routes/articles.router")
 
 app.use("/", artRoute)
-
+app.use("/", articleRoute)
 
 
 //DB Connection
