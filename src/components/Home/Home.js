@@ -35,6 +35,7 @@ const Home = () => {
             <p>clos luce, Amboise, Kingdom of France</p>
           </div>
         </div>
+
       </HOME>
     </>
   );
