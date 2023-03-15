@@ -51,14 +51,14 @@ const HOME = styled.div`
     width: 100%;
     height: 900px;
     top: 68px;
-    filter: brightness(40%);
+    filter: brightness(35%);
   }
 
   .clouds2 {
     position: absolute;
     width: 50%;
     bottom: 1px;
-    filter: brightness(40%);
+    filter: brightness(35%);
   }
 
   .davinci {
