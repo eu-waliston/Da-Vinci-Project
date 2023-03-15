@@ -1,23 +1,23 @@
 # Da Vicni Web Page.
 
-#  A React SPA about the polymath Pablo Da Vinci, in this project,  i'll use some technologies:
+#@  A React SPA about the polymath Pablo Da Vinci, in this project,  i'll use some technologies:
 
 
-## Front End
+### Front End
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white">
 
-## Back End
+### Back End
 <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white">
 <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
 <img src="https://img.shields.io/badge/Mongoose-00C58E?style=for-the-badge">
 
-## Data Persistence
+### Data Persistence
 <img src="https://img.shields.io/badge/MongoDB-white?style=for-the-badge&logo=mongodb&logoColor=4EA94B">
 
 
-## Hosting
+### Hosting
 <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 
 <br />
