@@ -1,6 +1,6 @@
 # Da Vicni Web Page.
 
-#@  A React SPA about the polymath Pablo Da Vinci, in this project,  i'll use some technologies:
+##  A React SPA about the polymath Pablo Da Vinci, in this project,  i'll use some technologies:
 
 
 ### Front End
