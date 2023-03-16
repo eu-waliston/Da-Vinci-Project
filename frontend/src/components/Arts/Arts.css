@@ -37,7 +37,13 @@
     border: 5px solid goldenrod;
     border-radius: 5px;
 
+    cursor: pointer;
+}
 
+.art__image:hover {
+    transition: .5s;
+    transform: scale(1.5) rotateY(360deg);
+    border: 5px solid gold;
 }
 
 .grace {
