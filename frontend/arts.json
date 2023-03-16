@@ -1,0 +1,69 @@
+{
+  "arts": [
+    {
+      "name": "The Annunciation",
+      "imageURL": "https://files.fm/thumb_show.php?i=y8u2j7fuf",
+      "description": "Between 1472-1475"
+    },
+    {
+      "name": "Portrait of Ginevra de' Benci",
+      "imageURL": "https://files.fm/thumb_show.php?i=twrjwq854",
+      "description": "Between 1474-1476"
+    },
+    {
+      "name": "The Virgin of the Rocks",
+      "imageURL": "https://files.fm/thumb_show.php?i=mpbu3rqcn",
+      "description": "Around 1485"
+    },
+    {
+      "name": "Vitruvian Man",
+      "imageURL": "https://files.fm/thumb_show.php?i=qqqkhttwc",
+      "description": "Around the year 1487"
+    },
+    {
+      "name": "Lady with Ermine",
+      "imageURL": "https://files.fm/thumb_show.php?i=bk78z3pk3",
+      "description": "Between 1489-1490"
+    },
+    {
+      "name": "La Belle Ferroniere",
+      "imageURL": "https://files.fm/thumb_show.php?i=b62ehmrff",
+      "description": "Between 1490-1495"
+    },
+    {
+      "name": "The Last Supper",
+      "imageURL": "https://files.fm/thumb_show.php?i=jutbnwug9",
+      "description": "Between 1493-1498"
+    },
+    {
+      "name": "Savior of the world",
+      "imageURL": "https://files.fm/thumb_show.php?i=4ds9dktvu",
+      "description": "Between 1490-1500"
+    },
+    {
+      "name": "Mona Lisa",
+      "imageURL": "https://files.fm/thumb_show.php?i=tupr2kc9s",
+      "description": "Between 1503-1506"
+    },
+    {
+      "name": "The Virgin and Child with Saint Anne",
+      "imageURL": "https://files.fm/thumb_show.php?i=ec9dhy8x7",
+      "description": "Executed in 1510"
+    },
+    {
+      "name": "Saint John the Baptist",
+      "imageURL": "https://files.fm/thumb_show.php?i=md2w5udey",
+      "description": "between 1513-1516"
+    },
+    {
+      "name": "The Baptism of Christ",
+      "imageURL": "https://files.fm/thumb_show.php?i=x4x36r2wb",
+      "description": "Between 1472-1475"
+    },
+    {
+      "name": "Adoration of the Magi",
+      "imageURL": "https://files.fm/thumb_show.php?i=u3q298g47",
+      "description": "Between 1481-1482"
+    }
+  ]
+}
