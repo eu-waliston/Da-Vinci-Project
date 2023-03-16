@@ -36,16 +36,7 @@ const Home = () => {
           <p>clos luce, Amboise, Kingdom of France</p>
         </div>
       </div>
-      <img
-        alt="clouds"
-        className="clouds"
-        src={require("../images/clouds.png")}
-      />
-      <img
-        alt="clouds"
-        className="clouds2"
-        src={require("../images/cloud2.png")}
-      />
+
     </div>
   );
 };

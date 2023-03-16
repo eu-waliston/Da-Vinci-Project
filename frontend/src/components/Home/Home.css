@@ -4,20 +4,6 @@
 }
 
 
-.clouds {
-    position: fixed;
-    width: 100%;
-    height: 900px;
-    top: 68px;
-    filter: brightness(15%);
-}
-
-.clouds2 {
-    position: fixed;
-    width: 50%;
-    bottom: 1px;
-    filter: brightness(15%);
-}
 
 .davinci {
     position: fixed;

@@ -26,8 +26,9 @@ const Arts = () => {
   return (
     <>
       <Navbar />
-      <div className="arts__section">
 
+      <div className="arts__section">
+<h1 className="grace"> Art & Grace</h1>
         <div className="arts">
           {arts.map((art, index) => (
             <Art
