@@ -22,7 +22,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink id="link-menu" to={"/arts"} style={NavLinkStyles}>
-              arts
+            collection
             </NavLink>
           </li>
           <li>
