@@ -5,7 +5,7 @@ const ART = (props) => {
   return (
     <ART_SQUARE className="arts">
       <div className="arts__square">
-          <div>
+          <div className="arts__grid">
             <h1>{props.name}</h1>
             <img src={props.imageURL} alt={props.name} key={props.index}  className="img"/>
             <p>{props.description}</p>
@@ -26,9 +26,9 @@ const ART_SQUARE = styled.div`
     }
 
     .arts__square {
-      > div {
+      .arts__grid {
+        color: #fff;
         display: flex;
-        flex-direction: column;
       } 
     }
 `
