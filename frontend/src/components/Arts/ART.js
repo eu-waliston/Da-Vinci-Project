@@ -14,9 +14,10 @@ const ART = (props) => {
 const ART_SQUARE = styled.div`
     width: 100%;
     height: 100vh;
-    
+
     .img {
       width: 300px;
     }
+
 `
 export default ART
