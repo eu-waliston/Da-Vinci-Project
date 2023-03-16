@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import "./Article.css"
 import Navbar from "../Navbar/Navbar";
 
 /*
@@ -14,21 +14,10 @@ async function getArticles() {
 
 const Articles = () => {
     return (
-
-        <>
+        <div className="articles">
             <Navbar />
-            <ARTICLES>
-
-            </ARTICLES>
-        </>
+        </div>
     )
 }
-
-const ARTICLES = styled.div `
-    width: 100vw;
-    height: 100vh;
-    background: #010712;
-
-`
 
 export default Articles;

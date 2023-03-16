@@ -1,51 +1,48 @@
-import React from "react";
-import styled from "styled-components";
+import React, { useEffect, useState } from "react";
+import "./Arts.css";
 import Navbar from "../Navbar/Navbar";
 
-import ART from "./ART";
+import Art from "./Art";
 
-async function getArts() {
-    let response = await fetch('http://localhost:4000/arts')
 
-    let data = await response.json()
 
-    return data;
+
+async function getAllArts() {
+  let res = await fetch("http://localhost:4000/arts");
+  let data = await res.json();
+
+  return data;
 }
 
 const Arts = () => {
-    const [arts, setArts] = React.useState([]);
+  const [arts, setAllArts] = useState([]);
 
-    React.useEffect(() => {
-        getArts().then((data) => {
-            setArts(data)
-        })
-    }, [])
+  useEffect(() => {
+    getAllArts().then((data) => {
+      setAllArts(data);
+    });
+  }, []);
 
+  return (
+    <>
+      <Navbar />
+      <div className="arts__section">
 
-    return (
+        <div className="arts">
+          {arts.map((art, index) => (
+            <Art
+              id={art.id}
+              name={art.name}
+              imageURL={art.imageURL}
+              description={art.description}
+              key={index}
+            />
+          ))}
+        </div>
 
-        <>
-            <Navbar />
-            <ARTS>
-                
-               {arts.map((art, index) => (
-                <ART 
-                    name={art.name}
-                    imageURL={art.imageURL}
-                    description={art.description}
-                    key={index}
-                />
-               ))}
-            </ARTS>
-        </>
-    )
-}
-
-const ARTS = styled.div `
-    width: 100vw;
-    height: 100vh;
-    background: #010712;
-
-`
+      </div>
+    </>
+  );
+};
 
 export default Arts;

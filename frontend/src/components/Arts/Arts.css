@@ -1,0 +1,40 @@
+.arts__section {
+    width: 100%;
+    height: 100vw;
+    background: rgb(2, 2, 19);
+}
+
+.arts {
+
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    gap: 50px;
+
+    align-items: center;
+    align-content: center;
+    margin-left: 5%;
+
+    position: relative;
+    top: 10%;
+}
+
+.art__title {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.art__title,
+.art__description {
+    color: #fff;
+
+    font-family: "Cinzel Decorative", cursive;
+}
+
+.art__image {
+    width: 300px;
+    height: 300px;
+
+    border: 5px solid goldenrod;
+    border-radius: 5px;
+}
+

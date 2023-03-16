@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
+.nav-itens {
+    display: flex;
+    margin-top: 3%;
+    margin-left: 60%;
+}
+
+li {
+    font-size: 1.8rem;
+    list-style: none;
+    text-transform: capitalize;
+    margin-right: 10%;
+}
+
+#link-menu {
+   color: #fff;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    width: 250px;
+    margin-left: 10%;
+    top: -50px;
+}
