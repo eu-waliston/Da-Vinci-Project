@@ -9,7 +9,6 @@ async function getArts() {
 
     let data = await response.json()
 
-    console.log(data);
     return data;
 }
 
