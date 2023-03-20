@@ -4,9 +4,6 @@ import Navbar from "../Navbar/Navbar";
 
 import Art from "./Art";
 
-
-
-
 async function getAllArts() {
   let res = await fetch("http://localhost:4000/arts");
   let data = await res.json();
