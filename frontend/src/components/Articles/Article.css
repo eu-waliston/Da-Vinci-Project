@@ -1,5 +1,48 @@
-.artcles {
+.articles {
     width: 100vw;
-    height: 100vh;
+    height: 150vh;
     background: #010712;
+    
+}
+
+.article {
+    color: #fff;
+}
+
+.articles_img {
+    width: 200px;
+    height: 200px;
+}
+
+.articles__div {
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    gap: 30px;
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+
+    position: relative;
+    top: 400px;
+
+    text-align: center;
+}
+
+.article_h1 {
+    font-size: 1.1rem;
+    font-family: "Cinzel Decorative", cursive;
+}
+.article_p {
+    font-size: .9rem;
+}
+
+.article__h1_dv {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    font-size: 3rem;
+    font-family: "Cinzel Decorative", cursive;
 }
